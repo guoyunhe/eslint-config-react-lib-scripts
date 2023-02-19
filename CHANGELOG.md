@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.0 - 2023-02-19
+
+- Added `plugin:react/jsx-runtime` configuration
+
 ## 1.0.0 - 2023-02-18
 
 - Added ESLint recommended configuration
