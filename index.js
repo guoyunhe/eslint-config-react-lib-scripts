@@ -26,5 +26,9 @@ module.exports = {
     },
     'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
   },
-  ignorePatterns: ['build', 'coverage', 'dist', 'lib', 'node_modules', '.rive'],
+  ignorePatterns: ['build', 'coverage', 'dist', 'lib', 'node_modules'],
+  rules: {
+    // Support Vite import suffix like `?raw` and `?url`
+    "import/no-duplicates": ["error", {"considerQueryString": true}]
+  }
 };

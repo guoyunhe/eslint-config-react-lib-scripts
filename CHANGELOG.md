@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.0 - 2023-02-24
+
+- Changed rule `import/no-duplicates` to support Vite import suffix like `?raw` and `?url`
+
 ## 1.1.0 - 2023-02-19
 
 - Added `plugin:react/jsx-runtime` configuration
