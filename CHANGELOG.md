@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.0 - 2023-03-12
+
+- Removed `eslint-plugin-import`. TypeScript already does import checking. And this eslint plugin brings more problems than benefits in TypeScript projects.
+
 ## 1.2.0 - 2023-02-24
 
 - Changed rule `import/no-duplicates` to support Vite import suffix like `?raw` and `?url`
