@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.4.0 - 2023-06-20
+## 1.5.0 - 2023-06-20
 
 - Added TypeScript 5 support
 
